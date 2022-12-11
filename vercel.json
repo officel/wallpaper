@@ -3,7 +3,7 @@
     "public": false,
     "functions": {
         "api/*.py": {
-            "excludeFiles": "{+(.now|.next|_next|node_modules|public|assets|components|pages)/**,yarn.lock,README.md}"
+            "excludeFiles": "{+(.now|.next|_next|node_modules|public|assets|components|pages)/**,**/*.ogg,yarn.lock,README.md}"
         }
     },
     "redirects": [
