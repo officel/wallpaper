@@ -1,16 +1,6 @@
 {
     "version": 2,
     "public": false,
-    "builds": [
-        {
-            "src": "api/index.py",
-            "use": "@vercel/python"
-        },
-        {
-            "src": "api/wp.py",
-            "use": "@vercel/python"
-        }
-    ],
     "functions": {
         "api/*.py": {
             "excludeFiles": "{+(.git|.now|.next|_next|node_modules|public|assets|components|pages)/**,**/*.ogg,yarn.lock,README.md}"
