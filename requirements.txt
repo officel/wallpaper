@@ -1,0 +1,5 @@
+igraph
+matplotlib
+numpy
+Pillow
+scipy
