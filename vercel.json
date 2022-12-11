@@ -1,6 +1,11 @@
 {
     "version": 2,
     "public": false,
+    "functions": {
+        "api/*.py": {
+            "excludeFiles": "{+(.now|.next|_next|node_modules|public|assets|components|pages)/**,yarn.lock,README.md}"
+        }
+    },
     "redirects": [
         {
             "source": "/",
